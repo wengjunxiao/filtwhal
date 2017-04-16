@@ -1,0 +1,23 @@
+<div class="w1090 login">                       	
+  <form class="login_f" id="login">
+    <ul id="login_title">
+      <li class="login_l">Account login</li>
+      <li class="login_r">Still no account?<a href="#" class="cblue">Register</a></li>
+    </ul>
+		<div id="hint"></div>
+   	<div class="login_pre" style="margin-top: 30px;">
+      <span class="login_b">Account: </span><input class="login_txt" ng-model="userName" value="Mobile phone number/user name" name="userName" id="userName" type="text" />
+    </div>
+   	<div class="login_pre">
+      <span class="login_b">Password: </span><input class="login_txt" ng-model="password" name="password" id="password" type="password" />
+    </div>
+    <div class="login_pre"><span class="login_b"></span>
+      <input class="login_remember" id="remember" type="checkbox" value="" checked="checked">Remember Username       
+      <a class="login_forgotten" href="#">Forgotten Password?</a>                   
+    </div>
+    <div class="login_pre">
+    	<span class="login_b"></span>
+    	<input class="login_btn" type="button" value="Login" ng-click="login(userName)" />
+    </div>
+  </form>                
+</div>
