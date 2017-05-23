@@ -11,6 +11,17 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
+/** 认证 */
+
+Route::controllers([
+    'auth' => 'Auth\AuthController',
+    'password' => 'Auth\PasswordController',
+]);
+
+/** Web(网站部分) */
+
+/** 网站页面部分 首页 详细页 搜索页 */
+Route::group(['prefix' => '', 'namespace' => 'Web'], function () {
+    Route::get('/', 'IndexController@index');
+    Route::get('/home', 'IndexController@index');
 });
