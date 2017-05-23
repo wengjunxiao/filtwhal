@@ -22,4 +22,4 @@ class IndexController extends Controller
     {
         return view('web.index');
     }
-
+}
