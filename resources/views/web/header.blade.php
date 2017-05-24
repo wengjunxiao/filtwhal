@@ -13,7 +13,7 @@
     <!-- Scripts -->
 	<script data-main="/js/AMD" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.15/require.min.js"></script>
 	<base href="/">
-<title>生鲜网</title>
+<title>FiltWhal</title>
 </head>
 <body>
 <br />

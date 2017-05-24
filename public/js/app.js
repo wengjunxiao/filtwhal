@@ -76,15 +76,6 @@ define(['angular'], function (angular) {
         }
     });
 
-    app.factory('LoginService', function() {
-        var loginUser = {};
-        loginUser.userName = "aaa";
-        loginUser.set = function(name) {
-            loginUser.userName = name;
-        }
-        return loginUser;
-    });
-
 	return app;
 
 });
