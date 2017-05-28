@@ -1,8 +1,10 @@
 <?php namespace App\Http\Controllers\Auth;
+
 use App\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\Registrar;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Illuminate\Http\Request;
 
 class AuthController extends Controller {
 
@@ -50,5 +52,5 @@ class AuthController extends Controller {
         }
         Auth::guard($this->getGuard())->login($this->create($request->all()));
  		return redirect($this->redirectPath());
- 	}
+ 	}	
 }
