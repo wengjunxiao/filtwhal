@@ -33,7 +33,7 @@ class AuthController extends Controller {
 	{
 		$this->auth = $auth;
 		$this->registrar = $registrar;
-
+		var_dump($this->registrar);
 		$this->middleware('guest', ['except' => 'getLogout']);
 	}
 
