@@ -50,4 +50,5 @@ class AuthController extends Controller {
         }
         Auth::guard($this->getGuard())->login($this->create($request->all()));
  		return redirect($this->redirectPath());
+ 	}
 }
