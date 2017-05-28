@@ -1,6 +1,5 @@
 <?php namespace App\Http\Controllers\Auth;
 
-use App\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\Registrar;
@@ -32,12 +31,6 @@ class AuthController extends Controller {
 	{
 		$this->auth = $auth;
 		$this->registrar = $registrar;
-		User::create([
-                        'name' => "sss",
-                        'email' => "aa@aaf",
-                        'password' => "aa",
-                ]);
-
 		$this->middleware('guest', ['except' => 'getLogout']);
 	}
 }
