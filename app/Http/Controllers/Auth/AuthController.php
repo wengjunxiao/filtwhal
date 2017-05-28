@@ -64,14 +64,14 @@ class AuthController extends Controller {
 	public function postRegister(Request $request)
 	{
 		$validator = $this->registrar->validator($request->all());
-		var_dump($validator);
-		exit();
+		var_dump("1");
 		if ($validator->fails())
 		{
 			$this->throwValidationException(
 				$request, $validator
 			);
 		}
+		var_dump("2");
 		$this->auth->login($this->registrar->create($request->all()));
 		return redirect($this->redirectPath());
 	}
