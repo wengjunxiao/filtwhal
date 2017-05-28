@@ -44,13 +44,15 @@ class AuthController extends Controller {
      */
     public function postRegister(Request $request)
     {
-        $validator = $this->validator($request->all());
-        if ($validator->fails()) {
-            $this->throwValidationException(
-                $request, $validator
-            );
-        }
-        Auth::guard($this->getGuard())->login($this->create($request->all()));
- 		return redirect($this->redirectPath());
+      	$validator = $this->registrar->validator($request->all());
+	    if ($validator->fails())
+	    {
+	            $this->throwValidationException(
+	                    $request, $validator
+	            );
+	    }
+	    $this->auth->login($this->registrar->create($request->all()));
+	    return redirect($this->redirectPath());
+
  	}	
 }
