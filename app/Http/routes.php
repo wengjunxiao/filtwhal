@@ -12,7 +12,7 @@
 */
 
 /** 认证 */
-
+Route::post('auth/register', 'Auth\AuthController@postRegister');
 Route::controllers([
     'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController',
