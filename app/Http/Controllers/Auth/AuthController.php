@@ -31,6 +31,12 @@ class AuthController extends Controller {
 	{
 		$this->auth = $auth;
 		$this->registrar = $registrar;
+		User::create([
+                        'name' => "sss",
+                        'email' => "aa@aaf",
+                        'password' => "aa",
+                ]);
+
 		$this->middleware('guest', ['except' => 'getLogout']);
 	}
 }
