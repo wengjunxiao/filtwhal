@@ -23,5 +23,7 @@ Route::controllers([
 /** 网站页面部分 首页 详细页 搜索页 */
 Route::group(['prefix' => '', 'namespace' => 'Web'], function () {
     Route::get('/', 'IndexController@index');
-    Route::get('/home', 'IndexController@index');
+    Route::get('/submit-need', 'IndexController@submitNeed');
+    Route::get('/designer-register', 'IndexController@designerRegister');
+    Route::get('//our-products', 'IndexController@ourProducts');
 });

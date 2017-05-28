@@ -15,7 +15,6 @@
             <ul class="nav navbar-nav">
                 <li><a href="{{ url('/') }}" TARGET="_self">Home</a></li>
                 <li><a>|</a></li>
-                <li><a href="{{ url('/search') }}" TARGET="_self">Search</a></li>
                 <li><a href="{{ url('/submit-need') }}" TARGET="_self">Submit Your Needs</a></li>
                 <li><a href="{{ url('/designer-register') }}" TARGET="_self">Designer Register</a></li>
                 <li><a href="{{ url('/our-products') }}" TARGET="_self">Our Products</a></li>
