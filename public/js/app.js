@@ -26,7 +26,7 @@ define(['angular'], function (angular) {
 		};
 	});
 	
-	app.controller("AppCtrl", function ($scope, $log, $q, $timeout, $http, $interval,$location,LoginService) {
+	app.controller("AppCtrl", function ($scope, $log, $q, $timeout, $http, $interval,$location) {
         console.log("AppCtrl working");
         $scope.tabs = [
             { title:'Tab 1', content:'Dynamic content 1' },
@@ -55,25 +55,6 @@ define(['angular'], function (angular) {
         $scope.goToDetail = function(inventory){
             $location.path('/inventory/' + inventory.id);
         };
-
-         $scope.goToLoginOrLogout = function(){
-            if($scope.loginUserName == null) {
-                $location.path('/login');    
-            } else {
-                LoginService.set(null);
-                $scope.loginUserName = LoginService.userName;
-                $scope.loginOrlogout = "Login";
-            }
-            
-        };
-
-        $scope.login = function(userName) { 
-            console.log(userName);
-            LoginService.set(userName);
-            $scope.loginUserName = LoginService.userName;
-            $scope.loginOrlogout = "Logout";
-            $location.path('/home');
-        }
     });
 
 	return app;
