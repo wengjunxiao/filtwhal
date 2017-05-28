@@ -34,4 +34,20 @@ class AuthController extends Controller {
 		$this->middleware('guest', ['except' => 'getLogout']);
 	}
 
+	/**
+     * override register method
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function postRegister(Request $request)
+    {
+        $validator = $this->validator($request->all());
+        if ($validator->fails()) {
+            $this->throwValidationException(
+                $request, $validator
+            );
+        }
+        Auth::guard($this->getGuard())->login($this->create($request->all()));
+ 		return redirect($this->redirectPath());
 }
