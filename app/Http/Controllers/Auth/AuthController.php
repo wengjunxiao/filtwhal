@@ -65,9 +65,9 @@ class AuthController extends Controller {
 	{
 		$validator = $this->registrar->validator($request->all());
 		var_dump("1");
-		exit();
 		if ($validator->fails())
 		{
+			exit();
 			$this->throwValidationException(
 				$request, $validator
 			);
