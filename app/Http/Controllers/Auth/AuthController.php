@@ -73,6 +73,7 @@ class AuthController extends Controller {
 		}
 		var_dump("2");
 		$this->auth->login($this->registrar->create($request->all()));
+		exit();
 		return redirect($this->redirectPath());
 	}
 	/**
