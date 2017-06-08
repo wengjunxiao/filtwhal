@@ -64,6 +64,7 @@ class AuthController extends Controller {
      */
     public function postLogin(Request $request)
     {
+    	var_dump("fuck");
             $this->validate($request, [
                     'email' => 'required|email', 'password' => 'required',
             ]);
