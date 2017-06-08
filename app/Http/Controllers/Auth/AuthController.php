@@ -69,14 +69,10 @@ class AuthController extends Controller {
             ]);
 */
             $credentials = $request->only('email', 'password');
-var_dump("fuck");
-            exit();
             if ($this->auth->attempt($credentials, $request->has('remember')))
             {
                     return redirect()->intended($this->redirectPath());
             }
-            var_dump("fuck");
-            exit();
             return redirect($this->loginPath())
                                     ->withInput($request->only('email', 'remember'))
                                     ->withErrors([
