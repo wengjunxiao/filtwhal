@@ -18,4 +18,11 @@
       Contact Us
   </div>
 
+  <div>
+    ドメイン:www.filtwhal.co.jp
+    住所：東京都港区赤坂7-3-38  カナダ大使館　1F
+    電話：03-6894-7676
+    Email:info@filtwhal.cojp
+  </div>
+
 @endsection

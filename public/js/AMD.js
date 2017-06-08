@@ -6,6 +6,7 @@ require.config({
 	paths: {
 		jquery : 'https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min',
 		angular : 'https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min',
+		bootstrap: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min',
 		ngAnimate : 'https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-animate.min',
 		ngCookies : 'https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-cookies.min',
 		ngResource : 'https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-resource.min',
@@ -18,6 +19,7 @@ require.config({
 	shim: {
 		jquery: { exports: '$'},
 		angular: { exports: 'angular', },
+		bootstrap: { exports: 'bootstrap', deps: ['jquery'] },
 		ngAnimate: { exports: 'ngAnimate', deps: ['angular'] },
 		ngCookies: { exports: 'ngCookies', deps: ['angular'] },
 		ngResource: { exports: 'ngResource', deps: ['angular'] },
@@ -41,7 +43,8 @@ require(
 		'commonRoutes',
 		'header',
 		'viewHomeController',
-		'inventoryController'
+		'inventoryController',
+		'bootstrap'
 	], 
 	function (angular) {
 		var AppRoot = angular.element(document.getElementById('ng-app'));
