@@ -17,7 +17,7 @@
   <div class="">
       <button>Submit Your Needs</button>
   </div>
-   <ul style="list-style:none;">
+   <ul>
         <li><a href="{{ url('/about') }}" TARGET="_self">About</a></li>
         <li><a href="{{ url('/contact-us') }}" TARGET="_self">Contact Us</a></li>
         <li><a href="{{ url('/recruit') }}" TARGET="_self">Recruit</a></li>
