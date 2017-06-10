@@ -35,4 +35,28 @@ class PasswordController extends Controller {
 		$this->middleware('guest');
 	}
 
+	/**
+	 * Send a reset link to the given user.
+	 *
+	 * @param  Request  $request
+	 * @return Response
+	 */
+	public function postEmail(Request $request)
+	{
+
+		$response = $this->passwords->sendResetLink($request->only('email'), function($m)
+		{
+			$m->subject($this->getEmailSubject());
+		});
+
+		switch ($response)
+		{
+			case PasswordBroker::RESET_LINK_SENT:
+				return redirect()->back()->with('status', trans($response));
+
+			case PasswordBroker::INVALID_USER:
+				return redirect()->back()->withErrors(['email' => trans($response)]);
+		}
+	}
+
 }
