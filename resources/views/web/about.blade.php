@@ -13,12 +13,12 @@
   </div> -->
    <br>
   <div style="overflow: hidden;">
-  <div style="float: left;width:250px;">
-  <div style="position: fixed;">
-      About
+  <div style="float: left;width:250px;height: 100px;padding: 100px">
+    <div style="position: fixed;">
+        About
+    </div>
   </div>
-  </div>
-  <div style="float: left;width:250px;">
+  <div style="float: left;">
     <p>
       私たち 株式会社Filtwhal デザイン会社です<br>
       デザインの力で あなたの会社の存在価値を高め<br>
