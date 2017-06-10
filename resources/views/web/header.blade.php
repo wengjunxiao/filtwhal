@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/flags.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/flags.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/admin.css') }}" rel="stylesheet">
     <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
