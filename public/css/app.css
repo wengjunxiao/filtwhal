@@ -50,3 +50,8 @@
 .testimonials.ng-hide-remove.ng-hide-remove-active {
     opacity: 1; 
 }
+
+
+ul {
+  list-style:none;
+}
