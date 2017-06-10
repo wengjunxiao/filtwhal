@@ -1,28 +1,19 @@
 @extends('web.app')
 @section('content')
-<link href="{{ asset('/css/index.css') }}" rel="stylesheet">
-<!-- <div style="height: 600px" ng-controller="ViewHomeController">
-    <div uib-carousel active="active" interval="myInterval">
-      <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" style="height:550px;">
-        <div class="block"> 
-        <img class="inner" ng-src="@{{slide.image}}">
-        </div>
-        <div class="carousel-caption">
-        </div>
+<link href="{{ asset('/css/comp_intro.css') }}" rel="stylesheet">
+  <div style="overflow: hidden;">
+    <div class = "left_menu">
+      <div style="position: fixed;">
+          Contact Us
       </div>
     </div>
-  </div> -->
-   <br>
-
-  <div >
-      Contact Us
-  </div>
-
-  <div>
-    ドメイン:www.filtwhal.co.jp
-    住所：東京都港区赤坂7-3-38  カナダ大使館　1F
-    電話：03-6894-7676
-    Email:info@filtwhal.cojp
-  </div>
+    <div style="float: left;">
+    <p>
+      ドメイン:www.filtwhal.co.jp<br>
+      住所：東京都港区赤坂7-3-38  カナダ大使館　1F<br>
+      電話：03-6894-7676<br>
+      Email:info@filtwhal.cojp<br>
+    </p>
+    </div> 
 
 @endsection
