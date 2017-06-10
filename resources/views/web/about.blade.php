@@ -12,11 +12,11 @@
     </div>
   </div> -->
    <br>
-  <div>
-  <div style="position: fixed;float: left;">
+  <div style="float: left;">
+  <div style="position: fixed;">
       About
   </div>
-  <div style="float: left;">
+  <div >
     <p>
       私たち 株式会社Filtwhal デザイン会社です<br>
       デザインの力で あなたの会社の存在価値を高め<br>
