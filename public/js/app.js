@@ -55,6 +55,10 @@ define(['angular'], function (angular) {
         $scope.goToDetail = function(inventory){
             $location.path('/inventory/' + inventory.id);
         };
+
+        $("#click").click(function(){
+        $('#click').css('color', '#0000FF');
+    });
     });
 
 	return app;
