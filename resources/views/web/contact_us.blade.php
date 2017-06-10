@@ -7,7 +7,7 @@
           Contact Us
       </div>
     </div>
-    <div style="float: left;">
+    <div style="float: left;margin-top: 100px">
     <p>
       ドメイン:www.filtwhal.co.jp<br>
       住所：東京都港区赤坂7-3-38  カナダ大使館　1F<br>
@@ -15,5 +15,6 @@
       Email:info@filtwhal.cojp<br>
     </p>
     </div> 
+  </div>
 
 @endsection
