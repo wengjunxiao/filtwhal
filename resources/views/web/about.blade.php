@@ -13,7 +13,7 @@
   </div> -->
    <br>
   <div style="overflow: hidden;">
-  <div style="position: fixed;float: left;">
+  <div style="position: fixed;float: left;width:250px">
       About
   </div>
   <div style="float: left;">
