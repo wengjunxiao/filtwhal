@@ -56,7 +56,7 @@ class PasswordController extends Controller {
 				return redirect()->back()->with('status', trans($response));
 
 			case PasswordBroker::INVALID_USER:
-				return redirect()->back()->withErrors(['email' => trans($response)]);
+				return redirect($this->getEmail())->withErrors(['email' => trans($response)]);
 		}
 	}
 
