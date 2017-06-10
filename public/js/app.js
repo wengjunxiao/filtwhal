@@ -57,9 +57,8 @@ define(['angular'], function (angular) {
         };
 
         $("#click").click(function(){
-        $('#click').css('color', '#0000FF');
-    });
-    });
+            $('#click').css('color', '#0000FF');
+         });
 
 	return app;
 

@@ -3,9 +3,11 @@
 <link href="{{ asset('/css/comp_intro.css') }}" rel="stylesheet">
    <br>
   <div style="overflow: hidden;">
-  <div id = "click" class = "left_menu">
-    <div style="position: fixed;">
-        About
+  <div  class = "left_menu">
+    <div  style="position: fixed;">
+       <ul>
+          <li id = "click">About</li>
+       </ul>
     </div>
   </div>
   <div style="float: left;">
