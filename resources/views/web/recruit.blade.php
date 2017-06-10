@@ -1,21 +1,20 @@
 @extends('web.app')
 @section('content')
-<link href="{{ asset('/css/index.css') }}" rel="stylesheet">
-<!-- <div style="height: 600px" ng-controller="ViewHomeController">
-    <div uib-carousel active="active" interval="myInterval">
-      <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" style="height:550px;">
-        <div class="block"> 
-        <img class="inner" ng-src="@{{slide.image}}">
-        </div>
-        <div class="carousel-caption">
-        </div>
+<link href="{{ asset('/css/comp_intro.css') }}" rel="stylesheet">
+  <div style="overflow: hidden;">
+    <div class = "left_menu">
+      <div style="position: fixed;">
+        <ul>
+          <li style="color: grey"><a href="{{ url('/about') }}" TARGET="_self">About</a></li>
+          <li style="color: grey"><a href="{{ url('/contact-us') }}" TARGET="_self">Contact Us</a></li>
+          <li style="color: black"><a href="{{ url('/recruit') }}" TARGET="_self">Recruit</a></li>
+       </ul>
       </div>
     </div>
-  </div> -->
-   <br>
-
-  <div >
-      Recruit
+    <div style="float: left;margin-top: 100px">
+    <p>
+    
+    </p>
+    </div> 
   </div>
-
 @endsection
