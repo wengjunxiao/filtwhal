@@ -43,4 +43,9 @@ class IndexController extends Controller
         return view('web.recruit');
     }
 
+     public function reset()
+    {
+        return view('auth.reset');
+    }
+
 }
