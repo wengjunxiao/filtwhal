@@ -37,5 +37,4 @@ Route::group(['prefix' => '', 'namespace' => 'Web'], function () {
     Route::get('/about', 'IndexController@about');
     Route::get('/contact-us', 'IndexController@contactUs');
     Route::get('/recruit', 'IndexController@recruit');
-    Route::get('/reset', 'IndexController@reset');
 });
