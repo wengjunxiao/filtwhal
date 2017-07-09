@@ -15,7 +15,7 @@
    <br>
 
   <div class="">
-      <img class="home-main" src="/img/home_main.jpg">
+      <img style="width: 1000px" class="home-main" src="/img/home_main.jpg">
       <button>Submit Your Needs</button>
   </div>
    <ul class ="nolist-ul">
