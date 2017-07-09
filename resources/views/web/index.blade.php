@@ -15,7 +15,7 @@
    <br>
 
   <div class="">
-      <img class="home-main" ng-src="/img/home_main.jpg">
+      <img class="home-main" src="/img/home_main.jpg">
       <button>Submit Your Needs</button>
   </div>
    <ul class ="nolist-ul">
