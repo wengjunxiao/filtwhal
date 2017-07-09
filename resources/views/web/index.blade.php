@@ -12,11 +12,13 @@
       </div>
     </div>
   </div> -->
-   <br>
+<!--    <br> -->
 
   <div class="">
       <img style="width: 1000px" class="home-main" src="/img/home_main.jpg">
-      <button>Submit Your Needs</button>
+  </div>
+  <div>
+       <button>Submit Your Needs</button>
   </div>
    <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
