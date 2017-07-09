@@ -15,7 +15,7 @@
 <!--    <br> -->
 
   <div class="">
-      <img style="width: 1000px" class="home-main" src="/img/home_main.jpg">
+      <img style="width: 100%" class="home-main" src="/img/home_main.png">
   </div>
   <div>
        <button>Submit Your Needs</button>
