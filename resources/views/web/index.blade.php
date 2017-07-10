@@ -14,11 +14,11 @@
   </div> -->
 <!--    <br> -->
 
-  <div style="text-align: center;">
-      <img style="width: 70%" class="home-main" src="/img/home_main.png">
+  <div style="margin-left: 200px">
+      <img style="width: 700px" class="home-main" src="/img/home_main.png">
   </div>
-  <div style="text-align: center; width: 50%">
-      <button type="button" class="btn-submit">Submit Your Needs</button>
+  <div style="margin-left: 200px; width: 300px">
+      <button type="button" class="btn btn-submit">Submit Your Needs</button>
   </div>
    <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
