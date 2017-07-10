@@ -17,8 +17,8 @@
   <div style="text-align: center;">
       <img style="width: 70%" class="home-main" src="/img/home_main.png">
   </div>
-  <div>
-      <button type="button" class="btn btn-danger">Submit Your Needs</button>
+  <div style="text-align: center;">
+      <button type="button" class="btn btn-outline-danger btn-lg btn-block">Submit Your Needs</button>
   </div>
    <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
