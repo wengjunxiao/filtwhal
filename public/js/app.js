@@ -56,6 +56,7 @@ define(['angular'], function (angular) {
             $location.path('/inventory/' + inventory.id);
         };
     });
+    
 	return app;
 
 });
