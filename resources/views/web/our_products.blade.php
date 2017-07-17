@@ -1,7 +1,7 @@
 @extends('web.app')
 @section('content')
 <link href="{{ asset('/css/index.css') }}" rel="stylesheet">
-<!-- <div style="height: 600px" ng-controller="ViewHomeController">
+<div style="height: 600px" ng-controller="ViewHomeController">
     <div uib-carousel active="active" interval="myInterval">
       <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" style="height:550px;">
         <div class="block"> 
@@ -11,7 +11,7 @@
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
    <br>
 
    <div >
