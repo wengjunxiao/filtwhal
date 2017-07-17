@@ -40,7 +40,7 @@ require(
 		'ngAnimate',
 	// Angular directives/controllers/services
 		'app',
-	/*	'commonRoutes',*/
+		'commonRoutes',
 		'header',
 		'viewHomeController',
 		'inventoryController',
