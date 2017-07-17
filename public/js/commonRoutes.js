@@ -4,7 +4,7 @@
 // set up base routes
 define(['angular', 'app'], function (angular, app) {
 
-	return app.config([ '$routeProvider', function ($routeProvider) {
+	/*return app.config([ '$routeProvider', function ($routeProvider) {
 
 		$routeProvider
 			.when('/', {templateUrl: 'html/home.html', controller:  'ViewHomeController'})
@@ -14,6 +14,6 @@ define(['angular', 'app'], function (angular, app) {
 			.when('/login',{templateUrl: 'html/login.html'})
 			.otherwise({redirectTo: '/'});
 
-	}]);
+	}]);*/
 	
 });
