@@ -55,7 +55,7 @@ define(['angular'], function (angular) {
         $scope.goToDetail = function(inventory){
             $location.path('/inventory/' + inventory.id);
         };
-
+    });
 	return app;
 
 });
