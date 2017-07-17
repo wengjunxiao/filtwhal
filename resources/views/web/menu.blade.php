@@ -1,8 +1,5 @@
 <nav class="navbar navbar-default" style="margin-bottom:0px">
 
-    height: 60px;
-    /* vertical-align: top; */
-    padding-top: 5px;
     <div class="container-fluid" style="height: 60px;padding-top: 5px">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
