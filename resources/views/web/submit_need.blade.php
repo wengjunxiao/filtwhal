@@ -15,7 +15,7 @@
    <br>
 
    <div >
-       <form class="form" role="form" method="POST" action="{{ url('/cart/add/') }}">
+       <form class="form" role="form" method="POST" action="{{ url('/submit-need/submit') }}">
           <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 <div>お名前<input name="name" ></div>           
                 <div>メールアドレス<input name="mail"></div>
