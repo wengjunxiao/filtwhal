@@ -15,7 +15,15 @@
    <br>
 
    <div >
-      SubmitNeed
+       <form class="form" role="form" method="POST" action="{{ url('/cart/add/') }}">
+          <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                <div>お名前<input name="name" ></div>           
+                <div>メールアドレス<input name="mail"></div>
+                <div>所属/会社<input name="company"></div>
+                <div>お問い合せの種類<input name="question_div" ></div>
+                <div>お問い合せ内容<input name="question" ></div>
+            <button type="submit" name="submit" value="buy">Submit</button>
+      </form>
   </div>
 
 @endsection

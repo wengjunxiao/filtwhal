@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Web; 
 use App\Http\Controllers\Controller;
+use App\Http\Requests;
+use Request;
 
 class IndexController extends Controller
 {
@@ -46,6 +48,15 @@ class IndexController extends Controller
      public function reset()
     {
         return view('auth.reset');
+    }
+
+    public function submitNeedSubmit() {
+        $name = Request::input('name');
+        $mail = Request::input('mail');
+        $company = Request::input('company');
+        $question_div = Request::input('question_div');
+        $question = Request::input('question');
+        return view('web.submit_need_ok');
     }
 
 }
