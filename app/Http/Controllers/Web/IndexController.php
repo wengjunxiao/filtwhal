@@ -56,6 +56,14 @@ class IndexController extends Controller
         $company = Request::input('company');
         $question_div = Request::input('question_div');
         $question = Request::input('question');
+        $need = new Need;
+        $need->name = $name;
+        $need->mail = $mail;
+        $need->company = $company;
+        $need->question_div = $question_div;
+        $need->question = $question;
+        $need->save();
+
         return view('web.submit_need_ok');
     }
 
