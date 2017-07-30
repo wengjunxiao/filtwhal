@@ -15,7 +15,7 @@ return [
 	|
 	*/
 
-	'driver' => env('MAIL_DRIVER', 'smtp'),
+	'driver' => env('MAIL_DRIVER', 'sendmail'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -28,7 +28,7 @@ return [
 	|
 	*/
 
-	'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+	'host' => env('MAIL_HOST', 'smtp.gmail.com'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,8 +54,12 @@ return [
 	|
 	*/
 
-	'from' => ['address' => null, 'name' => null],
-
+//	'from' => ['address' => null, 'name' => null],
+ 'from' => [
+        //ここの設定を追加
+        'address' => env('MAIL_FROM_ADDRESS', "filtwaltest@gmail.com"),
+        'name' => env('MAIL_FROM_NAME', "Filtwal")
+    ],
 	/*
 	|--------------------------------------------------------------------------
 	| E-Mail Encryption Protocol
@@ -67,7 +71,7 @@ return [
 	|
 	*/
 
-	'encryption' => 'tls',
+	'encryption' => env('ENCRYPTION','tls'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +97,7 @@ return [
 	|
 	*/
 
-	'password' => env('MAIL_PASSWORD'),
+	'password' => env('MAIL_PASSWORD','10293847h'),
 
 	/*
 	|--------------------------------------------------------------------------
