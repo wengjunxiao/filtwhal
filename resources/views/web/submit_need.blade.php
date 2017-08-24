@@ -35,8 +35,8 @@
                       <dd><input type="text" name="question_div"></dd>
                   </dl>
                   <dl>
-                      <dt>お問い合せ内容</dt>
-                      <dd><textarea type="text" style="height:150px" name="question"></textarea></dd>
+                      <dt style="vertical-align: top;">お問い合せ内容</dt>
+                      <dd><textarea type="text" style="height:150px;width: 250px" name="question"></textarea></dd>
                   </dl>
                   <dl>
                       <dd><button type="submit" name="submit" value="buy">Submit</button></dd>
