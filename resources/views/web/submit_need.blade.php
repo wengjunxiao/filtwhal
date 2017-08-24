@@ -36,7 +36,7 @@
                   </dl>
                   <dl>
                       <dt>お問い合せ内容</dt>
-                      <dd><input type="text" style="height:150px" name="question"></dd>
+                      <dd><textarea type="text" style="height:150px" name="question"></textarea></dd>
                   </dl>
                   <dl>
                       <dd><button type="submit" name="submit" value="buy">Submit</button></dd>
