@@ -17,7 +17,7 @@
    <div >
        <form class="form" role="form" method="POST" action="{{ url('/submit-need/submit') }}">
           <input type="hidden" name="_token" value="{{ csrf_token() }}">
-              <div>
+              <div class="submit-table">
                   <dl>
                       <dt>お名前</dt>
                       <dd><input type="text" name="name"></dd>
@@ -36,7 +36,7 @@
                   </dl>
                   <dl>
                       <dt>お問い合せ内容</dt>
-                      <dd><input type="text" name="question"></dd>
+                      <dd><input type="text" style="height:150px" name="question"></dd>
                   </dl>
                   <dl>
                       <dd><button type="submit" name="submit" value="buy">Submit</button></dd>

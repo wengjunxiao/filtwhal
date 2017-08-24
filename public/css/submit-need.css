@@ -1,9 +1,15 @@
-div{
+.submit-table{
     display:table;
+    margin: auto;
 }
 dl{
     display:table-row;
 }
 dt,dd{
     display:table-cell;
+    padding: 10px
+}
+
+input{
+	width: 250px;
 }
