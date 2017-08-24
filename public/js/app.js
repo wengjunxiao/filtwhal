@@ -30,7 +30,7 @@ define(['angular'], function (angular) {
         console.log("AppCtrl working");
         
         $scope.goToSubmitNeed = function(){
-            $location.href = "/our-products";
+            document.location.href = "/our-products";
         };
     });
     

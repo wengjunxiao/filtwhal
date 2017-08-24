@@ -18,7 +18,7 @@
       <img style="width: 700px" class="home-main" src="/img/home_main.png">
   </div>
   <div style="margin-left: 250px;">
-      <button type="button" class="btn btn-submit" ng-click="goToSubmitNeed()" TARGET="_self">Submit Your Needs</button>
+      <button type="button" class="btn btn-submit" ng-click="goToSubmitNeed()">Submit Your Needs</button>
   </div>
    <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
