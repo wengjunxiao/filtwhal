@@ -3,7 +3,7 @@
 <link href="{{asset('/css/index.css') }}" rel="stylesheet">
 <div style="height: 600px" ng-controller="ViewHomeController">
     <div uib-carousel active="active" interval="myInterval">
-      <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" style="height:800px;">
+      <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" style="height:700px;">
         <div class="block"> 
         <img style="width: 2000px;margin-left: -250px;margin-top: -350px"class="inner" ng-src="@{{slide.image}}">
         </div>
