@@ -5,7 +5,7 @@
     <div uib-carousel active="active" interval="myInterval">
       <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" style="height:700px;">
         <div class="block"> 
-        <img style="width: 2000px;margin-left: -250px;margin-top: -350px"class="inner" ng-src="@{{slide.image}}">
+        <img style="width: 2000px;margin-left: -150px;margin-top: -350px"class="inner" ng-src="@{{slide.image}}">
         </div>
         <div class="carousel-caption">
         </div>
