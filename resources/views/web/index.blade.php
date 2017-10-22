@@ -29,9 +29,11 @@
 <!--   <div style="margin-left: 200px">
       <img style="width: 700px" class="home-main" src="/img/home_main.png">
   </div> -->
-  <div style="padding-top:100px; padding-bottom:100px;padding-left: 450px;background-color: #D8D8D8">
+  <div style="padding-top:100px; padding-bottom:100px;padding-left: 500px;background-color: #D8D8D8">
       <button type="button" class="btn btn-submit" ng-click="goToSubmitNeed()">Submit Your Needs</button>
+      <button type="button" class="btn btn-submit" style="padding-left: 100px" ng-click="">Designer Register</button>
   </div>
+  
    <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
         <li><a style="color: black" href="{{ url('/contact-us') }}" TARGET="_self">Contact Us</a></li>
