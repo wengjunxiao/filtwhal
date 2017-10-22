@@ -43,9 +43,12 @@
     </div>    
   <div>
   
-   <ul class ="nolist-ul">
+  <div>
+    <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
         <li><a style="color: black" href="{{ url('/contact-us') }}" TARGET="_self">Contact Us</a></li>
         <li><a style="color: black" href="{{ url('/recruit') }}" TARGET="_self">Recruit</a></li>
     </ul>
+  </div>
+   
 @endsection
