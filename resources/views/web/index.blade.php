@@ -26,9 +26,9 @@
     </div>
   </div>
 
-  <div style="margin-left: 200px">
+<!--   <div style="margin-left: 200px">
       <img style="width: 700px" class="home-main" src="/img/home_main.png">
-  </div>
+  </div> -->
   <div style="margin-left: 250px;">
       <button type="button" class="btn btn-submit" ng-click="goToSubmitNeed()">Submit Your Needs</button>
   </div>
