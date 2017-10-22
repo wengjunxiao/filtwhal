@@ -49,7 +49,7 @@
       <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/pk.png">
     </div>    
   </div>
-   <div >
+   <div style="clear: both;">
     <div style="float: left;">
       sdfkjsa;dfjs;djfsdjfk;sjd
     </div>    
@@ -58,7 +58,7 @@
     </div>    
   </div>
 
-  <div>
+  <div style="clear: both;">
     <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
         <li><a style="color: black" href="{{ url('/contact-us') }}" TARGET="_self">Contact Us</a></li>
