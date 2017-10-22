@@ -30,9 +30,18 @@
       <img style="width: 700px" class="home-main" src="/img/home_main.png">
   </div> -->
   <div style="padding-top:100px; padding-bottom:100px;padding-left: 500px;background-color: #D8D8D8">
-      <button type="button" class="btn btn-submit" ng-click="goToSubmitNeed()">Submit Your Needs</button>
-      <button type="button" class="btn btn-submit" style="margin-left: 100px; color: #BC2525; background-color: white" ng-click="">Designer Register</button>
+      <button type="button" class="btn btn-submit" style="float: left;" ng-click="goToSubmitNeed()">Submit Your Needs</button>
+      <button type="button" class="btn btn-submit" style="margin-left: 100px; color: #BC2525; background-color: white; float: left;" ng-click="">Designer Register</button>
   </div>
+
+  <div >
+    <div style="float: left;">
+      sdfkjsa;dfjs;djfsdjfk;sjd
+    </div>    
+    <div style="float: left;">
+      <img style="width: 500px;margin-left: 0px;margin-top: 0px" class="inner" ng-src="">
+    </div>    
+  <div>
   
    <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
