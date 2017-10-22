@@ -34,7 +34,22 @@
       <button type="button" class="btn btn-submit" style="margin-left: 100px; color: #BC2525; background-color: white;" ng-click="">Designer Register</button>
   </div>
 
-  <div >
+ 
+  <div style="clear: both;">
+    <div style="float: left;">
+      <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/tky.png">
+    </div>    
+    <div style="float: left;">
+      <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/ny.jpg">
+    </div>    
+    <div style="float: left;">
+      <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/sh.jpg">
+    </div>    
+    <div style="float: left;">
+      <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/pk.png">
+    </div>    
+  </div>
+   <div >
     <div style="float: left;">
       sdfkjsa;dfjs;djfsdjfk;sjd
     </div>    
@@ -42,20 +57,7 @@
       <img style="width: 500px;margin-left: 0px;margin-top: 0px" class="inner" ng-src="/img/trump_design.jpg">
     </div>    
   </div>
-  <div style="clear: both;">
-    <div style="float: left;">
-      <img style="width: 100px;margin-left: 50px;" class="inner" ng-src="/img/tky.png">
-    </div>    
-    <div style="float: left;">
-      <img style="width: 100px;margin-left: 50px;" class="inner" ng-src="/img/ny.jpg">
-    </div>    
-    <div style="float: left;">
-      <img style="width: 100px;margin-left: 50px;" class="inner" ng-src="/img/sh.jpg">
-    </div>    
-    <div style="float: left;">
-      <img style="width: 100px;margin-left: 50px;" class="inner" ng-src="/img/pk.jpg">
-    </div>    
-  </div>
+
   <div style="clear: both;">
     <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
