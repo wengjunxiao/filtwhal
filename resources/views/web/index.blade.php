@@ -14,6 +14,18 @@
   </div> -->
 <!--    <br> -->
 
+<div style="height: 600px" ng-controller="ViewHomeController">
+    <div uib-carousel active="active" interval="myInterval">
+      <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id" style="height:700px;">
+        <div class="block"> 
+        <img style="width: 2300px;margin-left: -150px;margin-top: -350px"class="inner" ng-src="@{{slide.image}}">
+        </div>
+        <div class="carousel-caption">
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div style="margin-left: 200px">
       <img style="width: 700px" class="home-main" src="/img/home_main.png">
   </div>
