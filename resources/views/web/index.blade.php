@@ -41,14 +41,11 @@
     <div style="float: left;">
       <img style="width: 500px;margin-left: 0px;margin-top: 0px" class="inner" ng-src="/img/trump_design.jpg">
     </div>    
-  <div>
-  
-  <div>
+  </div>
     <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
         <li><a style="color: black" href="{{ url('/contact-us') }}" TARGET="_self">Contact Us</a></li>
         <li><a style="color: black" href="{{ url('/recruit') }}" TARGET="_self">Recruit</a></li>
     </ul>
-  </div>
    
 @endsection
