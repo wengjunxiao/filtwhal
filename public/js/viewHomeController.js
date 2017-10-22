@@ -10,7 +10,6 @@ define(['angular', 'app'], function (angular, app) {
     	$scope.slides = [
             /*{text: 'one', image: '/img/character_design.jpg', id: currIndex++},*/
             {text: 'one', image: '/img/graphic_design2.jpg', id: currIndex++},
-            {text: 'one', image: '/img/graphic_design.jpg', id: currIndex++}, 
             /*{text: 'one', image: '/img/graphic_design3.jpg', id: currIndex++},
             {text: 'one', image: '/img/graphic_design4.jpg', id: currIndex++},
             {text: 'one', image: '/img/icon_design.jpg', id: currIndex++},
@@ -19,6 +18,7 @@ define(['angular', 'app'], function (angular, app) {
             {text: 'one', image: '/img/package_design3.jpg', id: currIndex++},
             {text: 'one', image: '/img/package_storefront_design.jpg', id: currIndex++},*/
             {text: 'one', image: '/img/poster_design.jpg', id: currIndex++},
+            {text: 'one', image: '/img/graphic_design.jpg', id: currIndex++}, 
         ];
         
 	});
