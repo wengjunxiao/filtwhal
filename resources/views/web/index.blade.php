@@ -39,7 +39,7 @@
       sdfkjsa;dfjs;djfsdjfk;sjd
     </div>    
     <div style="float: left;">
-      <img style="width: 500px;margin-left: 0px;margin-top: 0px" class="inner" ng-src="">
+      <img style="width: 500px;margin-left: 0px;margin-top: 0px" class="inner" ng-src="/img/trump_design.jpg">
     </div>    
   <div>
   
