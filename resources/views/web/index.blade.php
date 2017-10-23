@@ -36,9 +36,9 @@
 
  
   <div style="clear: both; margin-top:50px; margin-bottom: 50px;margin-left: 10%; height:500px;width: 80%">
-      <div style="float: left;">
-        <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/tky.png">
-        <p>Tokyo</p>
+      <div style="float: left;width: 300px;margin-left: 80px;">
+        <img class="inner" ng-src="/img/tky.png">
+        <p> Tokyo</p>
       </div>    
       <div style="float: left;">
         <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/ny.jpg">
