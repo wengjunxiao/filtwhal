@@ -36,21 +36,21 @@
 
  
   <div style="clear: both; margin-top:50px; margin-bottom: 50px;margin-left: 10%; height:500px;width: 80%">
-      <div style="float: left;width: 300px;margin-left: 80px;">
-        <img class="inner" ng-src="/img/tky.png">
-        <p> Tokyo</p>
+      <div style="float: left;">
+        <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/tky.png">
+        <p style="width: 300px;margin-left: 80px;font-weight: 900; font-size: x-large;"> Tokyo</p>
       </div>    
       <div style="float: left;">
         <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/ny.jpg">
-        <p>New York</p>
+        <p style="width: 300px;margin-left: 80px;font-weight: 900; font-size: x-large;">New York</p>
       </div>    
       <div style="float: left;">
         <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/sh.jpg">
-        <p>ShangHai</p>
+        <p style="width: 300px;margin-left: 80px;font-weight: 900; font-size: x-large;">ShangHai</p>
       </div>    
       <div style="float: left;">
         <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/pk.png">
-        <p>BeiJing</p>
+        <p style="width: 300px;margin-left: 80px;font-weight: 900; font-size: x-large;">BeiJing</p>
       </div>    
   </div>
 
