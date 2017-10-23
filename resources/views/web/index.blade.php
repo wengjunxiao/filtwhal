@@ -36,18 +36,20 @@
 
  
   <div style="clear: both;">
-    <div style="float: left;text-align: center;">
-      <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/tky.png">
-    </div>    
-    <div style="float: left;">
-      <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/ny.jpg">
-    </div>    
-    <div style="float: left;">
-      <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/sh.jpg">
-    </div>    
-    <div style="float: left;">
-      <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/pk.png">
-    </div>    
+    <div style="text-align: center">
+      <div style="float: left;">
+        <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/tky.png">
+      </div>    
+      <div style="float: left;">
+        <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/ny.jpg">
+      </div>    
+      <div style="float: left;">
+        <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/sh.jpg">
+      </div>    
+      <div style="float: left;">
+        <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/pk.png">
+      </div>    
+    </div>
   </div>
    <div style="clear: both;"  >
     <div style="float: left;">
