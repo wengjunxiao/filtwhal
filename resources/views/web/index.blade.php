@@ -38,15 +38,19 @@
   <div style="clear: both; margin-top:50px; margin-bottom: 50px;margin-left: 10%; height:500px;width: 80%">
       <div style="float: left;">
         <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/tky.png">
+        <p>Tokyo</p>
       </div>    
       <div style="float: left;">
         <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/ny.jpg">
+        <p>New York</p>
       </div>    
       <div style="float: left;">
         <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/sh.jpg">
+        <p>ShangHai</p>
       </div>    
       <div style="float: left;">
         <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/pk.png">
+        <p>BeiJing</p>
       </div>    
   </div>
 
