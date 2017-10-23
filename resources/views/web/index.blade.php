@@ -29,9 +29,11 @@
 <!--   <div style="margin-left: 200px">
       <img style="width: 700px" class="home-main" src="/img/home_main.png">
   </div> -->
-  <div style="padding-top:100px; padding-bottom:100px;background-color: #D8D8D8；padding-left: 10%; width: 80%">
-      <button type="button" class="btn btn-submit" ng-click="goToSubmitNeed()">Submit Your Needs</button>
-      <button type="button" class="btn btn-submit" style="margin-left: 100px; color: #BC2525; background-color: white;" ng-click="">Designer Register</button>
+  <div style="padding-top:100px; padding-bottom:100px;background-color: #D8D8D8；padding-left: 10%;">
+      <div style="width: 80%">
+        <button type="button" class="btn btn-submit" ng-click="goToSubmitNeed()">Submit Your Needs</button>
+        <button type="button" class="btn btn-submit" style="margin-left: 100px; color: #BC2525; background-color: white;" ng-click="">Designer Register</button>
+      </div>
   </div>
 
  
