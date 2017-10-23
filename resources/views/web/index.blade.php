@@ -62,9 +62,9 @@
       <img style="width: 500px;margin-left: 0px;margin-top: 0px" class="inner" ng-src="/img/trump_design.jpg">
     </div>    
   </div> -->
-  <div style="margin-top: 200px">
-    <p style="margin:20px;text-align:center;font-weight: 700; font-size: -webkit-xxx-large; color: #D8D8D8">1000+ </p>
-    <p style="margin:20px;text-align:center;font-weight: 700; font-size: -webkit-xxx-large">Companies Choose Filtwhal</p>
+  <div style="margin-top: 100px">
+    <p style="margin-bottom:20px; text-align:center;font-weight: 700; font-size: -webkit-xxx-large; color: #BC2525">1000+ </p>
+    <p style="margin-bottom:50px;text-align:center;font-weight: 700; font-size: -webkit-xxx-large">Companies Choose Filtwhal</p>
     <img style="margin-left:20%;width: 60%;" class="inner" ng-src="/img/clients.png">
   </div>
   <div style="clear: both;">
