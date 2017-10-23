@@ -38,31 +38,33 @@
   <div style="clear: both; margin-top:50px; margin-bottom: 50px;margin-left: 10%; height:500px;width: 80%">
       <div style="float: left;">
         <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/tky.png">
-        <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 900; font-size: x-large;"> Tokyo</p>
+        <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 700; font-size: x-large;">Tokyo</p>
       </div>    
       <div style="float: left;">
         <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/ny.jpg">
-        <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 900; font-size: x-large;">New York</p>
+        <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 700; font-size: x-large;">New York</p>
       </div>    
       <div style="float: left;">
         <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/sh.jpg">
-        <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 900; font-size: x-large;">ShangHai</p>
+        <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 700; font-size: x-large;">ShangHai</p>
       </div>    
       <div style="float: left;">
         <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/pk.png">
-        <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 900; font-size: x-large;">BeiJing</p>
+        <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 700; font-size: x-large;">BeiJing</p>
       </div>    
   </div>
 
-   <div style="clear: both;"  >
+  <!--  <div style="clear: both;"  >
     <div style="float: left;">
       sdfkjsa;dfjs;djfsdjfk;sjd
     </div>    
     <div style="float: left;">
       <img style="width: 500px;margin-left: 0px;margin-top: 0px" class="inner" ng-src="/img/trump_design.jpg">
     </div>    
+  </div> -->
+  <div style="margin-top: 50px">
+    <img style="width: 100%" class="inner" ng-src="/img/clients.jpg">
   </div>
-
   <div style="clear: both;">
     <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
