@@ -35,18 +35,18 @@
   </div>
 
  
-  <div style="clear: both; margin-top:100px; margin-bottom: :100px;margin-left: 10%;width: 80%">
+  <div style="clear: both; margin-top:50px; margin-bottom: 50px;margin-left: 10%;width: 80%">
       <div style="float: left;">
-        <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/tky.png">
+        <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/tky.png">
       </div>    
       <div style="float: left;">
-        <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/ny.jpg">
+        <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/ny.jpg">
       </div>    
       <div style="float: left;">
-        <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/sh.jpg">
+        <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/sh.jpg">
       </div>    
       <div style="float: left;">
-        <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/pk.png">
+        <img style="width: 300px;margin-left: 80px;" class="inner" ng-src="/img/pk.png">
       </div>    
   </div>
 
