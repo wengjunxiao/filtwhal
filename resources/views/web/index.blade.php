@@ -63,7 +63,7 @@
     </div>    
   </div> -->
   <div style="margin-top: 50px">
-    <img style="width: 100%" class="inner" ng-src="/img/clients.jpg">
+    <img style="width: 100%" class="inner" ng-src="/img/clients.png">
   </div>
   <div style="clear: both;">
     <ul class ="nolist-ul">
