@@ -35,9 +35,7 @@
   </div>
 
  
-  <div style="clear: both;">
-    <center>
-      <div>
+  <div style="clear: both; margin-left: 20%;width: 80%">
       <div style="float: left;">
         <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/tky.png">
       </div>    
@@ -50,8 +48,6 @@
       <div style="float: left;">
         <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/pk.png">
       </div>    
-    </div>
-    </center>
   </div>
 
    <div style="clear: both;"  >
