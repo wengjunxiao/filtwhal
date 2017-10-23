@@ -34,9 +34,8 @@
       <button type="button" class="btn btn-submit" style="margin-left: 100px; color: #BC2525; background-color: white;" ng-click="">Designer Register</button>
   </div>
 
- 
+ <center>
   <div style="clear: both;">
-    <div style="text-align: center">
       <div style="float: left;">
         <img style="width: 300px;margin-left: 50px;" class="inner" ng-src="/img/tky.png">
       </div>    
@@ -51,6 +50,7 @@
       </div>    
     </div>
   </div>
+</center>
    <div style="clear: both;"  >
     <div style="float: left;">
       sdfkjsa;dfjs;djfsdjfk;sjd
