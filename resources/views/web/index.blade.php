@@ -62,8 +62,9 @@
       <img style="width: 500px;margin-left: 0px;margin-top: 0px" class="inner" ng-src="/img/trump_design.jpg">
     </div>    
   </div> -->
-  <div style="margin-top: 50px">
-    <img style="width: 100%" class="inner" ng-src="/img/clients.png">
+  <div style="margin-top: 200px">
+    <p style="margin:20px;text-align:center;font-weight: 900; font-size: x-large;">BeiJing</p>
+    <img style="margin-left:20%;width: 60%;" class="inner" ng-src="/img/clients.png">
   </div>
   <div style="clear: both;">
     <ul class ="nolist-ul">
