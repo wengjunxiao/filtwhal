@@ -63,7 +63,7 @@
     </div>    
   </div> -->
   <hr>
-  <div style="margin-top: 100px">
+  <div style="margin-top: 60px">
     <p style="margin-bottom:20px; text-align:center;font-weight: 700; font-size: -webkit-xxx-large; color: #BC2525">1000+ </p>
     <p style="margin-bottom:50px;text-align:center;font-weight: 700; font-size: -webkit-xxx-large">Companies Choose Filtwhal</p>
     <img style="margin-left:20%;width: 60%;" class="inner" ng-src="/img/clients.png">
