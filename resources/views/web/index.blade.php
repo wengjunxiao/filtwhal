@@ -80,7 +80,7 @@
       <p style="font-weight: 700;font-size: larger;">HTTP://THISOPENSPACE.COM</p>
       <p style="font-weight: 700;font-size: larger;">GRAPHICDEISGN</p>  
     </div>    
-    <div style="float: left;margin-left: 50px;color: white;">
+    <div style="float: left;margin-left: 250px;color: white;">
       <img style="width: 1000px;" class="inner" ng-src="/img/Thisopenspace.jpg">
     </div>    
   </div>
