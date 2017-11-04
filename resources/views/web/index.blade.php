@@ -61,7 +61,7 @@
       <p>WEB DESIGIN & PHOTOS</p>
     </div>    
     <div style="float: left;width:60%">
-      <img style="width: 500px;margin-left: 0px;margin-top: 0px" class="inner" ng-src="/img/trump_design.jpg">
+      <img style="width: 700px;margin-left: 300px;margin-top: 0px" class="inner" ng-src="/img/trump_design.jpg">
     </div>    
   </div> -
   <hr>
