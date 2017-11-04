@@ -74,7 +74,7 @@
       <p style="font-weight: 700;font-size: larger;">WEB DESIGIN & PROGRAM</p>
     </div>    
   </div>
-  <div style="clear:both;width:100%;height:900px;clear: both;padding-left: 15%;padding-top: 100px;background-color: #D8D8D8;"  >
+  <div style="clear:both;width:100%;height:850px;clear: both;padding-left: 15%;padding-top: 100px;background-color: #D8D8D8;"  >
     <div style="float: left;">
       <p style="font-weight: 700;font-size: x-large;">Client:Thisopenspace</p>
       <p style="font-weight: 700;font-size: larger;">HTTP://THISOPENSPACE.COM</p>
