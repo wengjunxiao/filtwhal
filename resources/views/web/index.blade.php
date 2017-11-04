@@ -54,11 +54,13 @@
       </div>    
   </div>
 
-  <div style="clear: both;"  >
-    <div style="float: left;">
-      sdfkjsa;dfjs;djfsdjfk;sjd
+  <div style="clear:both; width:100%;height:500px;clear: both;"  >
+    <div style="float: left;padding-left: 235px;width:30%;">
+      <p>Client:Trump</p>
+      <p>HTTP://WWW.TRUMPVANCOUVER.COM/BUILDING.HTML</p>
+      <p>WEB DESIGIN & PHOTOS</p>
     </div>    
-    <div style="float: left;">
+    <div style="float: left;width:70%">
       <img style="width: 500px;margin-left: 0px;margin-top: 0px" class="inner" ng-src="/img/trump_design.jpg">
     </div>    
   </div> -
