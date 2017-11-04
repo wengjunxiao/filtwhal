@@ -81,7 +81,7 @@
       <p style="font-weight: 700;font-size: large;">PROGRAM</p>
     </div>    
     <div style="float: left;margin-left: 50px;color: white;">
-      <img style="width: 1000px;" class="inner" ng-src="/img/trump_design.jpg">
+      <img style="width: 1000px;" class="inner" ng-src="/img/edger.jpg">
     </div>    
   </div>
   <hr>
