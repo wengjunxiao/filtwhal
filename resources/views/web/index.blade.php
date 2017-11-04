@@ -54,14 +54,14 @@
       </div>    
   </div>
 
-  <div style="clear:both; width:100%;height:500px;clear: both;"  >
-    <div style="float: left;padding-left: 235px;width:40%;">
-      <p>Client:Trump</p>
-      <p>HTTP://WWW.TRUMPVANCOUVER.COM/BUILDING.HTML</p>
-      <p>WEB DESIGIN & PHOTOS</p>
+  <div style="clear:both;width:100%;height:800px;clear: both;padding-left: 15%;padding-top: 100px;background-color: #D8D8D8;"  >
+    <div style="float: left;;">
+      <p style="font-weight: 700;font-size: x-large;">Client:Trump</p>
+      <p style="font-weight: 700;font-size: larger;">HTTP://WWW.TRUMPVANCOUVER.COM/BUILDING.HTML</p>
+      <p style="font-weight: 700;font-size: larger;">WEB DESIGIN & PHOTOS</p>
     </div>    
-    <div style="float: left;width:60%">
-      <img style="width: 700px;margin-left: 300px;margin-top: 0px" class="inner" ng-src="/img/trump_design.jpg">
+    <div style="float: left;margin-left: 50px;color: white;">
+      <img style="width: 1000px;" class="inner" ng-src="/img/trump_design.jpg">
     </div>    
   </div> -
   <hr>
