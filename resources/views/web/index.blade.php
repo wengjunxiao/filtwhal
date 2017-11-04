@@ -76,9 +76,9 @@
   </div>
   <div style="clear:both;width:100%;height:800px;clear: both;padding-left: 15%;padding-top: 100px;background-color: #D8D8D8;"  >
     <div style="float: left;">
-      <p style="font-weight: 700;font-size: large;">Client:Thisopenspace</p>
-      <p style="font-weight: 700;font-size: large;">HTTP://THISOPENSPACE.COM</p>
-      <p style="font-weight: 700;font-size: large;">GRAPHICDEISGN</p>
+      <p style="font-weight: 700;font-size: x-large;">Client:Thisopenspace</p>
+      <p style="font-weight: 700;font-size: larger;">HTTP://THISOPENSPACE.COM</p>
+      <p style="font-weight: 700;font-size: larger;">GRAPHICDEISGN</p>
     </div>    
     <div style="float: left;margin-left: 50px;color: white;">
       <img style="width: 1000px;" class="inner" ng-src="/img/Thisopenspace.jpg">
