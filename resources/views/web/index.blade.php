@@ -74,6 +74,16 @@
       <p style="font-weight: 700;font-size: larger;">WEB DESIGIN & PROGRAM</p>
     </div>    
   </div>
+  <div style="clear:both;width:100%;height:800px;clear: both;padding-left: 15%;padding-top: 100px;background-color: #D8D8D8;"  >
+    <div style="float: left;">
+      <p style="font-weight: 700;font-size: x-large;">WEB DESIGN</p>
+      <p style="font-weight: 700;font-size: x-large;">WEB DESIGN</p>
+      <p style="font-weight: 700;font-size: x-large;">3D MODELING PROGRAM</p>
+    </div>    
+    <div style="float: left;margin-left: 50px;color: white;">
+      <img style="width: 1000px;" class="inner" ng-src="/img/trump_design.jpg">
+    </div>    
+  </div>
   <hr>
   <div style="margin-top: 60px">
     <p style="margin-bottom:20px; text-align:center;font-weight: 700; font-size: -webkit-xxx-large; color: #BC2525">1000+ </p>
