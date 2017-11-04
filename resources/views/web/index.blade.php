@@ -54,14 +54,14 @@
       </div>    
   </div>
 
-  <!--  <div style="clear: both;"  >
+  <div style="clear: both;"  >
     <div style="float: left;">
       sdfkjsa;dfjs;djfsdjfk;sjd
     </div>    
     <div style="float: left;">
       <img style="width: 500px;margin-left: 0px;margin-top: 0px" class="inner" ng-src="/img/trump_design.jpg">
     </div>    
-  </div> -->
+  </div> -
   <hr>
   <div style="margin-top: 60px">
     <p style="margin-bottom:20px; text-align:center;font-weight: 700; font-size: -webkit-xxx-large; color: #BC2525">1000+ </p>
