@@ -2,7 +2,7 @@
 @section('content')
 <link href="{{ asset('/css/comp_intro.css') }}" rel="stylesheet">
 <br>
-  <div style="overflow: hidden;">
+ <!--  <div style="overflow: hidden;">
     <div class = "left_menu">
       <div style="position: fixed;">
         <ul class="nolist-ul">
@@ -11,7 +11,7 @@
           <li \><a style="color: grey"href="{{ url('/recruit') }}" TARGET="_self">Recruit</a></li>
        </ul>
       </div>
-    </div>
+    </div> -->
     <div style="float: left;margin-top: 100px">
    お問い合わせ
 
