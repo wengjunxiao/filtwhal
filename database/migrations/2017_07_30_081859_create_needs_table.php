@@ -12,11 +12,11 @@ class CreateNeedsTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('needs', function(Blueprint $table)
+		/*Schema::create('needs', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->timestamps();
-		});
+		});*/
 	}
 
 	/**
