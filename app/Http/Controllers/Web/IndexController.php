@@ -39,9 +39,7 @@ class IndexController extends Controller
 
     public function contactUs()
     {
-        var_dump("dddddddddddddddddddddd");
-        exit();
-        /*$name = Request::input('name');
+        $name = Request::input('name');
         $mail = Request::input('mail');
         $company = Request::input('company');
         $question_div = Request::input('question_div');
@@ -52,7 +50,7 @@ class IndexController extends Controller
         $contact->company = $company;
         $contact->question_div = $question_div;
         $contact->question = $question;
-        $contact->save();*/
+        $contact->save();
         return view('web.contact_us');
     }
 
