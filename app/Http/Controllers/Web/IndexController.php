@@ -39,8 +39,8 @@ class IndexController extends Controller
 
     public function contactUs()
     {
-        var_dump("sadfasdf")
-        exit()
+        var_dump("sadfasdf");
+        exit();
         $name = Request::input('name');
         $mail = Request::input('mail');
         $company = Request::input('company');
