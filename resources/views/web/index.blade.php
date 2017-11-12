@@ -89,6 +89,36 @@
     <p style="margin-bottom:50px;text-align:center;font-weight: 700; font-size: -webkit-xxx-large">Companies Choose Filtwhal</p>
     <img style="margin-left:20%;width: 60%;" class="inner" ng-src="/img/clients.png">
   </div>
+  <div style="clear:both;">
+     <form class="form" role="form" method="POST" action="{{ url('/submit-need/submit') }}">
+        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+            <div class="submit-table">
+                <dl>
+                    <dt>お名前</dt>
+                    <dd><input type="text" name="name"></dd>
+                </dl>
+                <dl>
+                    <dt>メールアドレス</dt>
+                    <dd><input type="email" name="mail"></dd>
+                </dl>
+                <dl>
+                    <dt>所属/会社</dt>
+                    <dd><input type="text" name="company"></dd>
+                </dl>
+                <dl>
+                    <dt>お問い合せの種類</dt>
+                    <dd><input type="text" name="question_div"></dd>
+                </dl>
+                <dl>
+                    <dt style="vertical-align: top;">お問い合せ内容</dt>
+                    <dd><textarea type="text" style="height:150px;width: 250px" name="question"></textarea></dd>
+                </dl>
+                <dl>
+                    <dd><button type="submit" name="submit" value="buy">Submit</button></dd>
+                </dl>
+            </div>
+      </form>
+  </div>
   <div style="clear: both;">
     <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
