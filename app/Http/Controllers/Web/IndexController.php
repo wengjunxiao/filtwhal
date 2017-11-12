@@ -39,6 +39,8 @@ class IndexController extends Controller
 
     public function contactUs()
     {
+        var_dump("sadfasdf")
+        exit()
         $name = Request::input('name');
         $mail = Request::input('mail');
         $company = Request::input('company');
@@ -77,7 +79,6 @@ class IndexController extends Controller
         $need->question_div = $question_div;
         $need->question = $question;
         $need->save();
-
         return view('web.submit_need_ok');
     }
 
