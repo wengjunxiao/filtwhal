@@ -98,7 +98,7 @@
                     <dt>お名前</dt>
                     <dd><input type="text" name="name"></dd>
                 </dl>
-                <dl style="float:left;>
+                <dl style="float:left;">
                     <dt>メールアドレス</dt>
                     <dd><input type="email" name="mail"></dd>
                 </dl>
