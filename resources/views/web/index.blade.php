@@ -93,7 +93,8 @@
      <form class="form" role="form" method="POST" action="{{ url('/contact-us') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="submit-table">
-                <dl>
+                <div>
+                  <dl style="float:left;">
                     <dt>お名前</dt>
                     <dd><input type="text" name="name"></dd>
                 </dl>
@@ -101,6 +102,7 @@
                     <dt>メールアドレス</dt>
                     <dd><input type="email" name="mail"></dd>
                 </dl>
+                </div>
                 <dl>
                     <dt>所属/会社</dt>
                     <dd><input type="text" name="company"></dd>
