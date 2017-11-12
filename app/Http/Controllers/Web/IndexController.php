@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Web;
 use App\Http\Controllers\Controller;
 use App\Http\Requests;
 use App\Need;
+use App\Contact;
 use Request;
 
 class IndexController extends Controller
@@ -43,13 +44,13 @@ class IndexController extends Controller
         $company = Request::input('company');
         $question_div = Request::input('question_div');
         $question = Request::input('question');
-        $need = new Need;
-        $need->name = $name;
-        $need->mail = $mail;
-        $need->company = $company;
-        $need->question_div = $question_div;
-        $need->question = $question;
-        $need->save();
+        $contact = new Contact;
+        $contact->name = $name;
+        $contact->mail = $mail;
+        $contact->company = $company;
+        $contact->question_div = $question_div;
+        $contact->question = $question;
+        $contact->save();
         return view('web.contact_us');
     }
 

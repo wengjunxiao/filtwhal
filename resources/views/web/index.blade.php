@@ -90,7 +90,7 @@
     <img style="margin-left:20%;width: 60%;" class="inner" ng-src="/img/clients.png">
   </div>
   <div style="clear:both;">
-     <form class="form" role="form" method="POST" action="{{ url('/submit-need/submit') }}">
+     <form class="form" role="form" method="POST" action="{{ url('/contact-us') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="submit-table">
                 <dl>
