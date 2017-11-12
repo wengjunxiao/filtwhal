@@ -91,11 +91,11 @@
   </div>
   <div style="clear:both; margin-top: 60px">
      <p style="margin-bottom:20px; text-align:center;font-weight: 700; font-size: -webkit-xxx-large; ">Contact Us</p>
-     <form style=" margin-top: 60px" class="form" role="form" method="POST" action="{{ url('/contact-us') }}">
+     <form style=" margin-left:40%; margin-top: 60px" class="form" role="form" method="POST" action="{{ url('/contact-us') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="submit-table">
                 <div>
-                <dl style="float:left; margin-left: 100px">
+                <dl style="float:left; margin-right: 100px">
                     <dt>お名前</dt>
                     <dd><input type="text" name="name"></dd>
                 </dl>
