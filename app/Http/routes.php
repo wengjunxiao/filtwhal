@@ -35,7 +35,7 @@ Route::group(['prefix' => '', 'namespace' => 'Web'], function () {
     Route::get('/designer-register', 'IndexController@designerRegister');
     Route::get('/our-products', 'IndexController@ourProducts');
     Route::get('/about', 'IndexController@about');
-    Route::get('/contact-us', 'IndexController@contactUs');
+    Route::post('/contact-us', 'IndexController@contactUs');
     Route::get('/recruit', 'IndexController@recruit');
     Route::post('/submit-need/submit', 'IndexController@submitNeedSubmit');
 });
