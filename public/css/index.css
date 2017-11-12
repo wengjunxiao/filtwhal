@@ -11,3 +11,16 @@
     font-size:x-large;
 
 }
+.submit-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px 1em;
+    letter-spacing: 1px;
+    color: #333;
+    line-height: 20px;
+    border-radius: 2px;
+    border: 1px solid #eaeaea;
+    outline: none;
+}
+    
