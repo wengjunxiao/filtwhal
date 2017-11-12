@@ -12,13 +12,17 @@ class CreateContactsTable extends Migration {
 	 */
 	public function up()
 	{
-		$table->increments('id');
-		$table->string("name");
-        $table->string("mail");
-        $table->string("company");
-        $table->string("question_div");
-        $table->string("question");
-		$table->timestamps();
+		Schema::create('contacts', function(Blueprint $table)
+		{
+			$table->increments('id');
+			$table->string("name");
+	        $table->string("mail");
+	        $table->string("company");
+	        $table->string("question_div");
+	        $table->string("question");
+			$table->timestamps();
+		});
+		
 	}
 
 	/**
