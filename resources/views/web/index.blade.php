@@ -89,12 +89,12 @@
     <p style="margin-bottom:50px;text-align:center;font-weight: 700; font-size: -webkit-xxx-large">Companies Choose Filtwhal</p>
     <img style="margin-left:20%;width: 60%;" class="inner" ng-src="/img/clients.png">
   </div>
-  <div style="clear:both;">
+  <div style="clear:both; margin-left: 30%">
      <form class="form" role="form" method="POST" action="{{ url('/contact-us') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="submit-table">
                 <div>
-                  <dl style="float:left;">
+                <dl style="float:left;">
                     <dt>お名前</dt>
                     <dd><input type="text" name="name"></dd>
                 </dl>
