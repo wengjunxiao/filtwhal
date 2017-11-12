@@ -12,7 +12,7 @@ class CreateNeedsTable extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('needs', function(Blueprint $table)
+		/*Schema::create('needs', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->string("name");
@@ -21,7 +21,7 @@ class CreateNeedsTable extends Migration {
             $table->string("question_div");
             $table->string("question");
 			$table->timestamps();
-		});
+		});*/
 	}
 
 	/**
