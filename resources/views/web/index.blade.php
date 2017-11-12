@@ -90,6 +90,7 @@
     <img style="margin-left:20%;width: 60%;" class="inner" ng-src="/img/clients.png">
   </div>
   <div style="clear:both; margin-left: 30%">
+     <p style="margin-bottom:20px; text-align:center;font-weight: 700; font-size: -webkit-xxx-large; >Contact Us</p>
      <form class="form" role="form" method="POST" action="{{ url('/contact-us') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="submit-table">
@@ -98,7 +99,7 @@
                     <dt>お名前</dt>
                     <dd><input type="text" name="name"></dd>
                 </dl>
-                <dl style="float:left;">
+                <dl>
                     <dt>メールアドレス</dt>
                     <dd><input type="email" name="mail"></dd>
                 </dl>
