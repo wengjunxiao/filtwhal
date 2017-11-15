@@ -54,7 +54,7 @@
       </div>    
   </div>
 
-  <div name="Products"></div>
+  <a name="Products"></a>
   <div style="clear:both;width:100%;height:800px;clear: both;padding-left: 15%;padding-top: 100px;background-color: #D8D8D8;"  >
     <div style="float: left;">
       <p style="font-weight: 700;font-size: x-large;">Client:Trump</p>
@@ -90,9 +90,10 @@
     <p style="margin-bottom:50px;text-align:center;font-weight: 700; font-size: -webkit-xxx-large">Companies Choose Filtwhal</p>
     <img style="margin-left:20%;width: 60%;" class="inner" ng-src="/img/clients.png">
   </div>
+  <a name="Contact"></a>
   <div style="clear:both; margin-top: 60px">
      <p style="margin-bottom:20px; text-align:center;font-weight: 700; font-size: -webkit-xxx-large; ">Contact Us</p>
-     <form name="Contact" style=" margin-left:38%; margin-top: 60px" class="form" role="form" method="POST" action="{{ url('/contact-us') }}">
+     <form style=" margin-left:38%; margin-top: 60px" class="form" role="form" method="POST" action="{{ url('/contact-us') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="submit-table">
                 <div>
