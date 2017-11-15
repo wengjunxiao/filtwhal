@@ -95,7 +95,7 @@
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="submit-table">
                 <div>
-                <dl style="float:left; margin-right: 100px">
+                <dl style="float:left; margin-right: 50px">
                     <dt><p class="form-text">お名前</p></dt>
                     <dd><input type="text" class="submit-text" style="width: 150px;" name="name"></dd>
                 </dl>
