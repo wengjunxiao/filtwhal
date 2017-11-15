@@ -16,7 +16,7 @@
                 <li><a href="{{ url('/') }}" TARGET="_self">Home</a></li>
                 <li><a>|</a></li>
                 <li><a href="{{ url('/submit-need') }}" TARGET="_self">Submit Your Needs</a></li>
-                <li><a href="{{ url('/designer-register') }}" TARGET="_self">Designer Register</a></li>
+                <li><a href="{{ url('/auth/register') }}" TARGET="_self">Designer Register</a></li>
                 <li><a href="#Products" TARGET="_self">Our Products</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -31,7 +31,7 @@
                         </ul>
                     </li>
                 @endif -->
-                 <li><a href="#Contact" TARGET="_self">Contact</a></li>
+                 <li><a href="#Contact" TARGET="_self">Contact Us</a></li>
             </ul>
 
         </div>
