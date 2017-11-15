@@ -51,7 +51,8 @@ class AuthController extends Controller {
 	    {
             return redirect("/auth/register");
 	    }
-	    $this->auth->login($this->registrar->create($request->all()));
+	    $this->registrar->create($request->all());
+	    /*$this->auth->login($this->registrar->create($request->all()));*/
 	    return redirect($this->redirectPath());
 
  	}	
