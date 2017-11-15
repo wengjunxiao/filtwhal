@@ -96,24 +96,24 @@
             <div class="submit-table">
                 <div>
                 <dl style="float:left; margin-right: 100px">
-                    <dt> <font size="5" face="Meiryo UI">お名前</font></dt>
+                    <dt class="form-text">お名前</dt>
                     <dd><input type="text" class="submit-text" style="width: 150px;" name="name"></dd>
                 </dl>
                 <dl>
-                    <dt><font size="5" face="Meiryo UI">メールアドレス</font></dt>
+                    <dt class="form-text">メールアドレス</dt>
                     <dd><input type="email" class="submit-text" style="width: 300px;" name="mail"></dd>
                 </dl>
                 </div>
                 <dl>
-                    <dt><font size="5" face="Meiryo UI">所属/会社</font></dt>
+                    <dt class="form-text">所属/会社</dt>
                     <dd><input type="text" class="submit-text" name="company" style="width: 500px;"></dd>
                 </dl>
                 <dl>
-                    <dt><font size="5" face="Meiryo UI">お問い合せの種類</font></dt>
+                    <dt class="form-text">お問い合せの種類</dt>
                     <dd><input type="text" class="submit-text" name="question_div" style="width: 500px;"></dd>
                 </dl>
                 <dl>
-                    <dt style="vertical-align: top;"><font size="5" face="Meiryo UI">お問い合せ内容</font></dt>
+                    <dt class="form-text" style="vertical-align: top;">お問い合せ内容</dt>
                     <dd><textarea type="text" class="submit-text" style="height:150px;width: 500px" name="question"></textarea></dd>
                 </dl>
                 <dl>

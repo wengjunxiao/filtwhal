@@ -22,3 +22,8 @@
     border: 1px solid #eaeaea;
     outline: none;
 }
+
+.font-text{
+    font-size:12px;
+    font-family: Meiryo UI
+}
