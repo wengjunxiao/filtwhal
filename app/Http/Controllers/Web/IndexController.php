@@ -80,4 +80,8 @@ class IndexController extends Controller
         return view('web.submit_need_ok');
     }
 
+    public function registerOk() {
+        return view('web.register_ok');   
+    }
+
 }
