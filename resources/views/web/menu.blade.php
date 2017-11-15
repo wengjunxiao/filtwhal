@@ -17,10 +17,10 @@
                 <li><a>|</a></li>
                 <li><a href="{{ url('/submit-need') }}" TARGET="_self">Submit Your Needs</a></li>
                 <li><a href="{{ url('/designer-register') }}" TARGET="_self">Designer Register</a></li>
-                <li><a href="{{ url('/our-products') }}" TARGET="_self">Our Products</a></li>
+                <li><a href="#Products" TARGET="_self">Our Products</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                @if (Auth::guest())
+              <!--   @if (Auth::guest())
                     <li><a href="{{ url('/auth/login') }}" TARGET="_self">Login</a></li>
                     <li><a href="{{ url('/auth/register') }}" TARGET="_self">Register</a></li>
                 @else
@@ -30,7 +30,8 @@
                             <li><a href="{{ url('/auth/logout') }}" TARGET="_self">Logout</a></li>
                         </ul>
                     </li>
-                @endif
+                @endif -->
+                 <li><a href="#Contact" TARGET="_self">Contact</a></li>
             </ul>
 
         </div>

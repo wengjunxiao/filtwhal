@@ -54,6 +54,7 @@
       </div>    
   </div>
 
+  <div name="Products"></div>
   <div style="clear:both;width:100%;height:800px;clear: both;padding-left: 15%;padding-top: 100px;background-color: #D8D8D8;"  >
     <div style="float: left;">
       <p style="font-weight: 700;font-size: x-large;">Client:Trump</p>
@@ -91,7 +92,7 @@
   </div>
   <div style="clear:both; margin-top: 60px">
      <p style="margin-bottom:20px; text-align:center;font-weight: 700; font-size: -webkit-xxx-large; ">Contact Us</p>
-     <form style=" margin-left:38%; margin-top: 60px" class="form" role="form" method="POST" action="{{ url('/contact-us') }}">
+     <form name="Contact" style=" margin-left:38%; margin-top: 60px" class="form" role="form" method="POST" action="{{ url('/contact-us') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="submit-table">
                 <div>
@@ -117,7 +118,7 @@
                     <dd><textarea type="text" class="submit-text" style="height:150px;width: 500px" name="question"></textarea></dd>
                 </dl>
                 <dl>
-                    <dd><button type="submit" class="btn btn-submit" name="submit" value="submit">提出</button></dd>
+                    <dd><button type="submit" class="btn btn-contact" name="submit" style="margin-left: 150px;"  value="submit">提出</button></dd>
                 </dl>
             </div>
       </form>
