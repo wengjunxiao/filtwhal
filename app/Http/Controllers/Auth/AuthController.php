@@ -53,7 +53,8 @@ class AuthController extends Controller {
 	    }
 	    /*$this->auth->login($this->registrar->create($request->all()));*/
 	    $this->registrar->create($request->all());
-	    return redirect($this->redirectPath());
+	    /*return redirect($this->redirectPath());*/
+	    return view('web.register_ok'); 
 
  	}	
 
