@@ -12,12 +12,10 @@
        </ul>
       </div>
     </div> -->
-    <div style="float: left;margin-top: 100px">
-   お問い合わせ
-
-  お問い合わせいただきまして誠にありがとうございました。
-  後日、改めて担当者よりメール、またはお電話にてご連絡させていただきます。
+     <div style="float: left;margin-top: 100px">
+       <p style="margin-bottom:20px; text-align:center;font-weight: 700; font-size: large; ">
+        お問い合わせいただきまして誠にありがとうございました。<br>
+        後日、改めて担当者よりメール、またはお電話にてご連絡させていただきます。</p>
     </div> 
-  </div>
 
 @endsection

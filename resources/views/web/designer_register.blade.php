@@ -16,7 +16,7 @@
 
    <div >
       <p style="margin-bottom:20px; text-align:center;font-weight: 700; font-size: -webkit-xxx-large; ">Designer Register</p>
-       <form  class="form" role="form" method="POST" action="{{ url('/register-designer') }}">
+       <form  class="form" role="form" style="margin-top: 60px" method="POST" action="{{ url('/register-designer') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="submit-table">
                 <div>
