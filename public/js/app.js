@@ -32,13 +32,9 @@ define(['angular'], function (angular) {
         $scope.goToSubmitNeed = function(){
             document.location.href = "/submit-need";
         };
-    });
 
-    app.controller("AppCtrl", function ($scope, $log, $q, $timeout, $http, $interval,$location) {
-        console.log("AppCtrl working");
-        
-        $scope.goToSubmitNeed = function(){
-            document.location.href = "/auth/register";
+         $scope.goToRegister = function(){
+            document.location.href = "/designer-register";
         };
     });
     
