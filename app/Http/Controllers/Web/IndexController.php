@@ -91,7 +91,7 @@ class IndexController extends Controller
         $designer->mail = $mail;
         $designer->company = $company;
         $designer->skill = $skill;
-        $need->save();
+        $designer->save();
         return view('web.register_ok');   
     }
 
