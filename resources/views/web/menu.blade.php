@@ -31,7 +31,7 @@
                         </ul>
                     </li>
                 @endif -->
-                 <li><a href="gotoElement('Contact')" TARGET="_self">Contact Us</a></li>
+                 <li><a ng-click="gotoElement('Contact')" TARGET="_self">Contact Us</a></li>
             </ul>
 
         </div>
