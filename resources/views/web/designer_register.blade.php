@@ -15,6 +15,7 @@
    <br>
 
    <div >
+      <p style="margin-bottom:20px; text-align:center;font-weight: 700; font-size: -webkit-xxx-large; ">Designer Register</p>
        <form  class="form" role="form" method="POST" action="{{ url('/register-designer') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="submit-table">
@@ -37,7 +38,7 @@
                     <dd><textarea type="text" class="submit-text" style="height:150px;width: 500px" name="skill"></textarea></dd>
                 </dl>
                 <dl>
-                    <dd><button type="submit" class="btn btn-contact" name="submit" style="margin-left: 150px;"  value="submit">提出</button></dd>
+                    <dd><button type="submit" class="btn btn-contact" name="submit" style="margin-left: 150px;"  value="submit">登録</button></dd>
                 </dl>
             </div>
       </form>
