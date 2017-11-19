@@ -15,7 +15,7 @@
    <br>
 
    <div >
-       <form  class="form" role="form" method="POST" action="{{ url('/register_designer') }}">
+       <form  class="form" role="form" method="POST" action="{{ url('/register-designer') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="submit-table">
                 <div>

@@ -124,11 +124,11 @@
             </div>
       </form>
   </div>
-  <div style="clear: both;">
+<!--   <div style="clear: both;">
     <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
         <li><a style="color: black" href="{{ url('/contact-us') }}" TARGET="_self">Contact Us</a></li>
         <li><a style="color: black" href="{{ url('/recruit') }}" TARGET="_self">Recruit</a></li>
     </ul>
-   </div>
+   </div> -->
 @endsection
