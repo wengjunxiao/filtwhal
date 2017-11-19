@@ -13,7 +13,11 @@ define(['angular'], function (angular) {
         $location.html5Mode(true);
     }]); 
     
-    app.service('anchorSmoothScroll', function(){
+    // Choose to inject either HashBangs or HTML5 mode, your preference.
+	var app = angular.module('app', ['HTML5ModeURLs', 'ui.bootstrap', 'ngSanitize', 'ngAnimate'], function ($routeProvider, $locationProvider, $httpProvider) {
+	});
+
+	    app.service('anchorSmoothScroll', function(){
     
     this.scrollTo = function(eID) {
 
@@ -66,9 +70,6 @@ define(['angular'], function (angular) {
     };
     
 });
-    // Choose to inject either HashBangs or HTML5 mode, your preference.
-	var app = angular.module('app', ['HTML5ModeURLs', 'ui.bootstrap', 'ngSanitize', 'ngAnimate'], function ($routeProvider, $locationProvider, $httpProvider) {
-	});
 	
 	app.directive("commonFooter", function () {
 		return {
