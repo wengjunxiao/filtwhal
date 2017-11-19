@@ -123,6 +123,12 @@
                 </dl>
             </div>
       </form>
+        <p>
+-      ドメイン:www.filtwhal.co.jp<br>
+-      住所：東京都港区赤坂7-3-38  カナダ大使館　1F<br>
+-      電話：03-6894-7676<br>
+-      Email:info@filtwhal.cojp<br>
+-     </p>
   </div>
 <!--   <div style="clear: both;">
     <ul class ="nolist-ul">
