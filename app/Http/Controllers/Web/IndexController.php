@@ -5,6 +5,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests;
 use App\Need;
 use App\Contact;
+use App\Designer;
 use Request;
 
 class IndexController extends Controller
@@ -80,7 +81,17 @@ class IndexController extends Controller
         return view('web.submit_need_ok');
     }
 
-    public function registerOk() {
+     public function registerDesigner() {
+        $name = Request::input('name');
+        $mail = Request::input('mail');
+        $company = Request::input('company');
+        $skill = Request::input('skill');
+        $designer = new Designer;
+        $designer->name = $name;
+        $designer->mail = $mail;
+        $designer->company = $company;
+        $designer->skill = $skill;
+        $need->save();
         return view('web.register_ok');   
     }
 
