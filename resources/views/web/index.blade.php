@@ -35,22 +35,22 @@
   </div>
 
  
-  <div style="clear: both; margin-top:50px; margin-bottom: 50px;margin-left: 9%; height:500px;width: 100%">
+  <div style="clear: both; margin-top:50px; margin-bottom: 50px;margin-left: 6%; height:500px;width: 100%">
       <div style="float: left;width: 18%;">
         <img  style="width: 100%;" class="inner" ng-src="/img/tky.png">
-        <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 700; font-size: x-large;">Tokyo</p>
+        <p style="margin-top:10px;text-align:center;width: 100%;font-weight: 700; font-size: x-large;">Tokyo</p>
       </div>    
-      <div style="float: left;width: 18%;margin-left: 3%;">
+      <div style="float: left;width: 18%;margin-left: 4%;">
         <img style="width: 100%;" class="inner" ng-src="/img/ny.jpg">
-        <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 700; font-size: x-large;">New York</p>
+        <p style="margin-top:10px;text-align:center;width: 100%;margin-left: 4%;;font-weight: 700; font-size: x-large;">New York</p>
       </div>    
-      <div style="float: left;width: 18%;margin-left: 3%;">
+      <div style="float: left;width: 18%;margin-left: 4%;">
         <img style="width: 100%;" class="inner" ng-src="/img/sh.jpg">
-        <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 700; font-size: x-large;">ShangHai</p>
+        <p style="margin-top:10px;text-align:center;width: 100%;margin-left: 4%;;font-weight: 700; font-size: x-large;">ShangHai</p>
       </div>    
-      <div style="float: left;width: 18%;margin-left: 3%;">
+      <div style="float: left;width: 18%;margin-left: 4%;">
         <img style="width: 100%;" class="inner" ng-src="/img/pk.png">
-        <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 700; font-size: x-large;">BeiJing</p>
+        <p style="margin-top:10px;text-align:center;width: 100%;margin-left: 4%;;font-weight: 700; font-size: x-large;">BeiJing</p>
       </div>    
   </div>
 
