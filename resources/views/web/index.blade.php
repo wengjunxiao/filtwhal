@@ -92,7 +92,7 @@
   </div>
   <a id="Contact"></a>
   <div style="clear:both; margin-top: 60px">
-     <p style="margin-bottom:20px; text-align:center;font-weight: 700; font-size: -webkit-xxx-large; ">Contact Us</p>
+     <p style="margin-bottom:20px; margin-left: 45%;font-weight: 700; font-size: -webkit-xxx-large; ">Contact Us</p>
      <form style=" margin-left:38%; margin-top: 60px" class="form" role="form" method="POST" action="{{ url('/contact-us') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="submit-table">
@@ -123,13 +123,15 @@
                 </dl>
             </div>
       </form>
+      <div style="margin-left: 45%">
         <p style="text-align: center;margin-top: 40px;font-family: Meiryo UI;">
         ドメイン:www.filtwhal.com<br>
         住所：東京都港区赤坂7-3-38  カナダ大使館　1F<br>
         電話：03-6894-7676<br>
         Email:info@filtwhal.com<br><br><br>
-        © 2017 Filtwhal Inc. All Rights Reserved<br>  
+        © 2017 FiltwhalJapn, Inc. All Rights Reserved<br>  
         </p>
+       </div> 
   </div>
 <!--   <div style="clear: both;">
     <ul class ="nolist-ul">
