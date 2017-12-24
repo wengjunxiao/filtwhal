@@ -35,7 +35,7 @@
   </div>
 
  
-  <div style="clear: both; margin-top:50px; margin-bottom: 50px;margin-left: 19%; height:500px;width: 100%">
+  <div style="clear: both; margin-top:50px; margin-bottom: 50px;margin-left: 9%; height:500px;width: 100%">
       <div style="float: left;width: 18%;">
         <img  style="width: 100%;" class="inner" ng-src="/img/tky.png">
         <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 700; font-size: x-large;">Tokyo</p>
