@@ -61,7 +61,7 @@
       <p style="font-weight: 700;font-size: larger;">HTTP://WWW.TRUMPVANCOUVER.COM/BUILDING.HTML</p>
       <p style="font-weight: 700;font-size: larger;">WEB DESIGIN & PHOTOS</p>
     </div>    
-    <div style="float: left;margin-left: 10%;width:60%;color: white;">
+    <div style="float: left;margin-left: 5%;width:60%;color: white;">
       <img style="width: 100%;" class="inner" ng-src="/img/trump_design.jpg">
     </div>    
   </div>
@@ -69,7 +69,7 @@
     <div style="float: left;color: white; width:60%";>
       <img style="width: 100%;" class="inner" ng-src="/img/concord.jpg">
     </div>    
-    <div style="float: left;margin-left: 10%;">
+    <div style="float: left;margin-left: 5%;">
       <p style="font-weight: 700;font-size: x-large;">Client:Concord</p>
       <p style="font-weight: 700;font-size: larger;">HTTP://WWW.CONCORDPACIFIC.COM</p>
       <p style="font-weight: 700;font-size: larger;">WEB DESIGIN & PROGRAM</p>
@@ -81,7 +81,7 @@
       <p style="font-weight: 700;font-size: larger;">HTTP://THISOPENSPACE.COM</p>
       <p style="font-weight: 700;font-size: larger;">GRAPHICDEISGN</p>  
     </div>    
-    <div style="float: left;margin-left: 10%;width:60%;color: white;">
+    <div style="float: left;margin-left: 5%;width:60%;color: white;">
       <img style="width: 100%;" class="inner" ng-src="/img/Thisopenspace.jpg">
     </div>    
   </div>
