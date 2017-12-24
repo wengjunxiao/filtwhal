@@ -61,15 +61,15 @@
       <p style="font-weight: 700;font-size: larger;">HTTP://WWW.TRUMPVANCOUVER.COM/BUILDING.HTML</p>
       <p style="font-weight: 700;font-size: larger;">WEB DESIGIN & PHOTOS</p>
     </div>    
-    <div style="float: left;margin-left: 50px;color: white;">
-      <img style="width: 1000px;" class="inner" ng-src="/img/trump_design.jpg">
+    <div style="float: left;margin-left: 10%;width:60%;color: white;">
+      <img style="width: 100%;" class="inner" ng-src="/img/trump_design.jpg">
     </div>    
   </div>
   <div style="clear:both;width:100%;height:800px;clear: both;padding-left: 15%;padding-top: 100px;background-color: #D8D8D8;"  >
     <div style="float: left;color: white;">
-      <img style="width: 1000px;" class="inner" ng-src="/img/concord.jpg">
+      <img style="width: 100%;" class="inner" ng-src="/img/concord.jpg">
     </div>    
-    <div style="float: left;margin-left: 50px;">
+    <div style="float: left;margin-left: 10%;width:60%;">
       <p style="font-weight: 700;font-size: x-large;">Client:Concord</p>
       <p style="font-weight: 700;font-size: larger;">HTTP://WWW.CONCORDPACIFIC.COM</p>
       <p style="font-weight: 700;font-size: larger;">WEB DESIGIN & PROGRAM</p>
@@ -81,8 +81,8 @@
       <p style="font-weight: 700;font-size: larger;">HTTP://THISOPENSPACE.COM</p>
       <p style="font-weight: 700;font-size: larger;">GRAPHICDEISGN</p>  
     </div>    
-    <div style="float: left;margin-left: 250px;color: white;">
-      <img style="width: 1000px;" class="inner" ng-src="/img/Thisopenspace.jpg">
+    <div style="float: left;margin: 10%;width:60%;color: white;">
+      <img style="width: 100%;" class="inner" ng-src="/img/Thisopenspace.jpg">
     </div>    
   </div>
   <div style="margin-top: 60px">
