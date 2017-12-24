@@ -123,7 +123,8 @@
                 </dl>
             </div>
       </form>
-      <div style="margin-left: 30px">
+  </div>
+  <div style="margin-left: 45%">
         <p style="text-align: center;margin-top: 40px;font-family: Meiryo UI;">
         ドメイン:www.filtwhal.com<br>
         住所：東京都港区赤坂7-3-38  カナダ大使館　1F<br>
@@ -131,8 +132,7 @@
         Email:info@filtwhal.com<br><br><br>
         © 2017 FiltwhalJapn, Inc. All Rights Reserved<br>  
         </p>
-       </div> 
-  </div>
+  </div> 
 <!--   <div style="clear: both;">
     <ul class ="nolist-ul">
         <li ><a style="color: black" href="{{ url('/about') }}" TARGET="_self">About</a></li>
