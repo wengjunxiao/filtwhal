@@ -31,7 +31,7 @@
   </div> -->
   <div style="padding-top:100px; padding-bottom:100px;background-color: #D8D8D8;">
       <button type="button" class="btn btn-submit" style="margin-left: 14%" ng-click="goToSubmitNeed()">Submit Your Needs</button>
-      <button type="button" class="btn btn-submit" style="margin-left: 10%; color: #BC2525; background-color: white;" ng-click="goToRegister()">Designer Register</button>
+      <button type="button" class="btn btn-submit" style="margin-left: 12%; color: #BC2525; background-color: white;" ng-click="goToRegister()">Designer Register</button>
   </div>
 
  
