@@ -123,7 +123,7 @@
                 </dl>
             </div>
       </form>
-      <div style="margin-left: 45%">
+      <div style="margin-left: 15%">
         <p style="text-align: center;margin-top: 40px;font-family: Meiryo UI;">
         ドメイン:www.filtwhal.com<br>
         住所：東京都港区赤坂7-3-38  カナダ大使館　1F<br>
