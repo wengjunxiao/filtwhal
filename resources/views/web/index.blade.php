@@ -55,7 +55,7 @@
   </div>
 
   <a id="Products"></a>
-  <div style="clear:both;width:100%;height:800px;clear: both;padding-left: 15%;padding-top: 100px;background-color: #D8D8D8;"  >
+  <div style="clear:both;width:100%;height:800px;clear: both;padding-left: 15%;padding-top: 5%;background-color: #D8D8D8;"  >
     <div style="float: left;">
       <p style="font-weight: 700;font-size: x-large;">Client:Trump</p>
       <p style="font-weight: 700;font-size: larger;">HTTP://WWW.TRUMPVANCOUVER.COM/BUILDING.HTML</p>
@@ -65,7 +65,7 @@
       <img style="width: 100%;" class="inner" ng-src="/img/trump_design.jpg">
     </div>    
   </div>
-  <div style="clear:both;width:100%;height:800px;clear: both;padding-left: 15%;padding-top: 100px;background-color: #D8D8D8;"  >
+  <div style="clear:both;width:100%;height:800px;clear: both;padding-left: 15%;padding-top: 5%;background-color: #D8D8D8;"  >
     <div style="float: left;color: white; width:60%";>
       <img style="width: 100%;" class="inner" ng-src="/img/concord.jpg">
     </div>    
@@ -75,7 +75,7 @@
       <p style="font-weight: 700;font-size: larger;">WEB DESIGIN & PROGRAM</p>
     </div>    
   </div>
-  <div style="clear:both;width:100%;height:850px;clear: both;padding-left: 15%;padding-top: 100px;background-color: #D8D8D8;"  >
+  <div style="clear:both;width:100%;height:850px;clear: both;padding-left: 15%;padding-top: 5%;background-color: #D8D8D8;"  >
     <div style="float: left;">
       <p style="font-weight: 700;font-size: x-large;">Client:Thisopenspace</p>
       <p style="font-weight: 700;font-size: larger;">HTTP://THISOPENSPACE.COM</p>
