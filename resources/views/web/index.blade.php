@@ -36,20 +36,20 @@
 
  
   <div style="clear: both; margin-top:50px; margin-bottom: 50px;margin-left: 10%; height:500px;width: 100%">
-      <div style="float: left;">
-        <img style="width: 14%;" class="inner" ng-src="/img/tky.png">
+      <div style="float: left;width: 14%;">
+        <img  class="inner" ng-src="/img/tky.png">
         <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 700; font-size: x-large;">Tokyo</p>
       </div>    
-      <div style="float: left;">
-        <img style="width: 14%;margin-left: 8%;" class="inner" ng-src="/img/ny.jpg">
+      <div style="float: left;width: 14%;margin-left: 8%;">
+        <img style="" class="inner" ng-src="/img/ny.jpg">
         <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 700; font-size: x-large;">New York</p>
       </div>    
-      <div style="float: left;">
-        <img style="width: 14%;margin-left: 8%;" class="inner" ng-src="/img/sh.jpg">
+      <div style="float: left;width: 14%;margin-left: 8%;">
+        <img style="" class="inner" ng-src="/img/sh.jpg">
         <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 700; font-size: x-large;">ShangHai</p>
       </div>    
-      <div style="float: left;">
-        <img style="width: 14%;margin-left: 8%;" class="inner" ng-src="/img/pk.png">
+      <div style="float: left;width: 14%;margin-left: 8%;">
+        <img style="" class="inner" ng-src="/img/pk.png">
         <p style="margin-top:10px;text-align:center;width: 300px;margin-left: 80px;font-weight: 700; font-size: x-large;">BeiJing</p>
       </div>    
   </div>
