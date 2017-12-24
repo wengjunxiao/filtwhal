@@ -66,7 +66,7 @@
     </div>    
   </div>
   <div style="clear:both;width:100%;height:800px;clear: both;padding-left: 15%;padding-top: 100px;background-color: #D8D8D8;"  >
-    <div style="float: left;color: white;" style="width:60%";>
+    <div style="float: left;color: white; width:60%";>
       <img style="width: 100%;" class="inner" ng-src="/img/concord.jpg">
     </div>    
     <div style="float: left;margin-left: 10%;">
