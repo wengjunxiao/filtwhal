@@ -91,9 +91,9 @@
     <img style="margin-left:20%;width: 60%;" class="inner" ng-src="/img/clients.png">
   </div>
   <a id="Contact"></a>
-  <div style="clear:both; margin-top: 60px">
-     <p style="margin-bottom:20px; margin-left: 45%;font-weight: 700; font-size: -webkit-xxx-large; ">Contact Us</p>
-     <form style=" margin-left:38%; margin-top: 60px" class="form" role="form" method="POST" action="{{ url('/contact-us') }}">
+  <div style="margin-left:38%;clear:both; margin-top: 60px;width: 500px">
+     <p style="margin-bottom:20px;font-weight: 700; font-size: -webkit-xxx-large;text-align: center; ">Contact Us</p>
+     <form style="margin-top: 60px" class="form" role="form" method="POST" action="{{ url('/contact-us') }}">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
             <div class="submit-table">
                 <div>
@@ -123,8 +123,6 @@
                 </dl>
             </div>
       </form>
-  </div>
-  <div >
         <p style="text-align: center;margin-top: 40px;font-family: Meiryo UI;">
         ドメイン:www.filtwhal.com<br>
         住所：東京都港区赤坂7-3-38  カナダ大使館　1F<br>
