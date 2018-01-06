@@ -125,7 +125,7 @@
       </form>
         <p style="text-align: center;margin-top: 40px;font-family: Meiryo UI;">
         ドメイン:www.filtwhaljapan.com<br>
-        住所：東京都港区南青山2-2-8DFビル4F<br>
+        住所：東京都港区南青山2-2-8 DFビル4F<br>
         電話：03-6894-7676<br>
         Email:info@filtwhaljapan.com<br><br><br>
         © 2018 FiltwhalJapn, Inc. All Rights Reserved<br>  

@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">FiltWhal Japan</a>
+            <a class="navbar-brand" href="/">Filtwhal Japan</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -17,7 +17,7 @@
                 <li><a>|</a></li>
                 <li><a href="{{ url('/submit-need') }}" TARGET="_self">Submit Your Needs</a></li>
                 <li><a href="{{ url('/designer-register') }}" TARGET="_self">Designer Register</a></li>
-                <li><a ng-click="gotoElement('Products')" TARGET="_self">Our Products</a></li>
+                <li><a style="cursor: hand" ng-click="gotoElement('Products')" TARGET="_self">Our Products</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <!--   @if (Auth::guest())
@@ -31,7 +31,7 @@
                         </ul>
                     </li>
                 @endif -->
-                 <li><a ng-click="gotoElement('Contact')" TARGET="_self">Contact Us</a></li>
+                 <li><a style="cursor: hand" ng-click="gotoElement('Contact')" TARGET="_self">Contact Us</a></li>
             </ul>
 
         </div>
